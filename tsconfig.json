@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./src",
+    "outDir": "dist",
+    "target": "es2017",
+    "lib": ["es5", "es6", "DOM", "dom.iterable", "es2017.object"],
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "strict": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "types": [],
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true
+  },
+  "exclude": ["./node_modules"]
+}
